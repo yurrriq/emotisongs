@@ -1,4 +1,6 @@
-* There's a Song for That
+* Emotisongs
+There's a song for that!™
+
 #+BEGIN_QUOTE
 Eric you need to start a web service or app that posts a song linked to how you are feeling. I swear you have a song for every possible emotion or a reply to someone.
 #+END_QUOTE
