@@ -1,6 +1,7 @@
 * Emotisongs
 There's a song for that!™
 
+** Introduction
 #+BEGIN_QUOTE
 Eric you need to start a web service or app that posts a song linked to how you are feeling. I swear you have a song for every possible emotion or a reply to someone.
 #+END_QUOTE
@@ -11,3 +12,23 @@ That is a GREYT idea.
 It shall be done, eventually.
 #+END_QUOTE
 -- [[https://github.com/yurrriq][@yurrriq]]
+
+** Installation
+Just add it to your =rebar.config= deps:
+
+#+BEGIN_SRC erlang
+{deps, [
+   ...
+   {emotisongs, ".*", {git, "git@github.com:yurrriq/emotisongs.git", "master"}}
+  ]}.
+#+END_SRC
+
+And then do the usual:
+
+#+BEGIN_SRC bash
+    $ rebar get-deps
+    $ rebar compile
+#+END_SRC
+
+** Usage
+To be determined...
