@@ -12,6 +12,6 @@ notifications:
     #- YOU@YOUR.DOMAIN
 otp_release:
   - 18.0
-  - 17.1
-  - R16B03
-  - R15B03
+  # - 17.1
+  # - R16B03
+  # - R15B03
