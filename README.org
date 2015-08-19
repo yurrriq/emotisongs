@@ -1,4 +1,8 @@
 * Emotisongs
+
+[[https://travis-ci.org/yurrriq/emotisongs][file:https://travis-ci.org/yurrriq/emotisongs.svg?branch=master]]
+[[https://github.com/yurrriq/emotisongs/blob/master/LICENSE][file:https://img.shields.io/github/license/yurrriq/emotisongs.svg]]
+
 There's a song for that!™
 
 ** Introduction
