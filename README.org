@@ -27,8 +27,7 @@ Just add it to your =rebar.config= deps:
 
 And then do the usual:
 #+BEGIN_SRC bash
-    $ rebar get-deps
-    $ rebar compile
+$ rebar3 compile
 #+END_SRC
 
 ** Usage
