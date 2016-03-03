@@ -1,8 +1,7 @@
-* Emotisongs
-
 [[https://travis-ci.org/yurrriq/emotisongs][file:https://travis-ci.org/yurrriq/emotisongs.svg?branch=master]]
-[[https://github.com/yurrriq/emotisongs/blob/master/LICENSE][file:https://img.shields.io/github/license/yurrriq/emotisongs.svg]]
+# [[https://github.com/yurrriq/emotisongs/blob/master/LICENSE][file:https://img.shields.io/github/license/yurrriq/emotisongs.svg]]
 
+* Emotisongs
 There's a song for that!™
 
 ** Introduction
@@ -19,16 +18,14 @@ It shall be done, eventually.
 
 ** Installation
 Just add it to your =rebar.config= deps:
-
 #+BEGIN_SRC erlang
 {deps, [
    ...
-   {emotisongs, ".*", {git, "git@github.com:yurrriq/emotisongs.git", "master"}}
+   {emotisongs, {git, "git://github.com/yurrriq/emotisongs.git", {branch, "develop"}}}
   ]}.
 #+END_SRC
 
 And then do the usual:
-
 #+BEGIN_SRC bash
     $ rebar get-deps
     $ rebar compile

@@ -2,7 +2,7 @@
 {application,    'emotisongs',
  [{description,  "There's a Song for That!™"},
   {vsn,          "0.0.1"},
-  {modules,      ['emotisongs-app', 'emotisongs-server', 'emotisongs-sup']},
+  {modules,      ['emotisongs-app', 'emotisongs-sup']},
   {registered,   ['emotisongs-sup']},
   {applications, [kernel, stdlib]},
   {included_applications, []},
